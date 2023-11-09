@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/seaview-210.ics"
+  to = "/.netlify/functions/seaview-210"
+  status = 200
