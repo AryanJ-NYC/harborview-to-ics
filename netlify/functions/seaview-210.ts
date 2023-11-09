@@ -47,7 +47,7 @@ export const handler: Handler = async () => {
 
   return {
     body: value,
-    headers: { 'Content-Type': 'text/calendar' },
+    headers: { 'Content-Type': 'text/calendar', 'Cache-Control': 'max-age=21600' },
     statusCode: 200,
   };
 };
