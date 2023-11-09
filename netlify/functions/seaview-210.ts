@@ -45,7 +45,11 @@ export const handler: Handler = async () => {
   }));
   const { value } = createEvents(mappedEvents);
 
-  return { statusCode: 200, body: value };
+  return {
+    body: value,
+    headers: { 'Content-Type': 'text/calendar' },
+    statusCode: 200,
+  };
 };
 
 type BookingEvent = {
