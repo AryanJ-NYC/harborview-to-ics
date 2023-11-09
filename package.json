@@ -1,0 +1,16 @@
+{
+  "name": "events-to-ics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Aryan Jabbari",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^2.3.0",
+    "ics": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
